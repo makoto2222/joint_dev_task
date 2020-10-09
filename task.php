@@ -118,13 +118,13 @@ $numbers1 = [1, 2, 3, 4, 5];
 
 # 以下に回答（Q6）を記載
 
-function multiple_number($numbers1 ){
+function multiple_number($numbers1){
   return $numbers1*10;
 }
 
 $multiple_numbers = array_map('multiple_number', $numbers1);
 
-print_r($multiple_numbers );
+print_r($multiple_numbers);
 
 echo PHP_EOL;
 
@@ -142,7 +142,7 @@ $array = ["1", "2", "3", "4", "5"];
 
 $num = (int) $array;
 
-print_r($array );
+print_r($array);
 echo PHP_EOL;
 
 
